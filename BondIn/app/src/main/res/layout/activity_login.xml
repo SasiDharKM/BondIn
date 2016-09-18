@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginback2"
+    tools:context="com.hackomaniacs.bondin.LoginActivity">
+
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="53dp"
+        android:id="@+id/imageButton3"
+        android:src="@drawable/loginbtn"
+        android:onClick="goPr"
+        android:layout_marginBottom="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/loginusername"
+        android:layout_marginBottom="105dp"
+        android:layout_above="@+id/imageButton3"
+         />
+
+    <ImageView
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView5"
+        android:src="@drawable/loginpassword"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/imageButton3"
+        android:layout_marginBottom="27dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="2dp"
+
+        android:layout_alignStart="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_above="@+id/imageView5"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
+        android:id="@+id/editText2"
+        android:layout_above="@+id/imageButton3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp" />
+    <ImageView
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:id="@+id/imageView12"
+        android:src="@drawable/bondin"
+        android:layout_marginBottom="39dp"
+        android:layout_above="@+id/editText"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
